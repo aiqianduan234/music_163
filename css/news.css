@@ -1,0 +1,8 @@
+/*层叠公共样式*/
+.s_banner{
+	background-image: url(../images/newsbanner.jpg);
+	background-color: #fbf9ed;
+}
+.s_content .title h2{
+	background-position: 0 31px;
+}

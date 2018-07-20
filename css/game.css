@@ -1,0 +1,189 @@
+/*game页面详细内容部分
+*/
+.s_content .detail{
+	width: 1000px;
+	padding: 40px 0;
+	overflow: hidden;
+}
+.s_content .detail .aside{
+	float: left;
+	width: 195px;
+	font-family: "arial";
+	font-size: 16px;
+	line-height: 80px;
+}
+.s_content .detail .aside li{
+	width: 195px;
+	height: 80px;
+	border-bottom: 1px solid #cad6e1;
+}
+.s_content .detail .aside li.current{
+	background: url(../images/arrow.png) no-repeat right center;
+}
+.s_content .detail .aside li a{
+	display: block;
+	padding-left: 52px;
+	position: relative;
+}
+.s_content .detail .aside li a b{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 43px;
+	height: 80px;
+	background: url(../images/pad.png) no-repeat 0 23px;
+}
+.s_content .detail .aside li a b.iphone{
+	background-position: 0 23px;
+}
+.s_content .detail .aside li a b.and{
+	background-position: -4px -74px;
+}
+.s_content .detail .aside li a b.ipad{
+	background-position: 0 -176px;
+}
+.s_content .detail .aside li a b.pc{
+	background-position: 0 -272px;
+}
+.s_content .detail .aside li a b.tv{
+	background-position: 0 -579px;
+}
+.s_content .detail .aside li a:hover,.s_content .detail .aside li.current a{
+	color: #38b774;
+}
+.s_content .detail .aside li a:hover b.iphone,.s_content .detail .aside li.current a b.iphone{
+	background-position: -125px 23px;
+}
+.s_content .detail .aside li a:hover b.and,.s_content .detail .aside li.current a b.and{
+	background-position: -124px -74px;
+}
+.s_content .detail .aside li a:hover b.ipad,.s_content .detail .aside li.current a b.ipad{
+	background-position: -121px -176px;
+}
+.s_content .detail .aside li a:hover b.pc,.s_content .detail .aside li.current a b.pc{
+	background-position: -120px -272px;
+}
+.s_content .detail .aside li a:hover b.tv,.s_content .detail .aside li.current a b.tv{
+	background-position: -43px -579px;
+}
+/*主要产品图区域*/
+.s_content .detail .main{
+	float: right;
+	width: 757px;
+	padding-top: 4px;
+	overflow: hidden;
+}
+.s_content .detail .main ul{
+	width: 800px;
+	overflow: hidden;
+	display: none;
+}
+.s_content .detail .main ul.current{
+	display: block;
+}
+.s_content .detail .main ul li{
+	float: left;
+	width: 331px;
+	height: 323px;
+	padding: 4px 12px 0;
+	border: 1px solid #cad6e1;
+	border-radius: 4px;
+	margin: 0 43px 42px 0;
+	background-color: #f7f7f7;
+}
+.s_content .detail .main ul li:hover{
+	background-color: #fff;
+}
+.s_content .detail .main ul li h4{
+	height: 54px;
+	font-size: 16px;
+	line-height: 54px;
+	text-align: center;
+}
+.s_content .detail .main ul li h4 a .eng{
+	padding-right: 13px;
+	margin-left: 8px;
+	background: url(../images/arrow.png) no-repeat right center;
+	font-family: "arial";
+	font-size: 12px;
+	color: #38b774;
+}
+.s_content .detail .main ul li h4 a:hover{
+	color: #38b774;
+}
+.s_content .detail .main ul li .pic{
+	display: block;
+	width: 331px;
+	height: 195px;
+	margin-bottom: 20px;
+}
+.s_content .detail .main ul li .pic img{
+	display: block;
+}
+.s_content .detail .main ul li .pic:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.s_content .detail .main ul li .load{
+	width: 331px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+.s_content .detail .main ul li .load .app{
+	float: left;
+	width: 169px;
+	height: 36px;
+	border-right: 1px solid #c7d6e5;
+}
+.s_content .detail .main ul li .load .app a{
+	display: inline-block;
+	height: 36px;
+	padding-left: 33px;
+	background: url(../images/icon.png) no-repeat 0 -347px;
+}
+.s_content .detail .main ul li .load .ewm{
+	float: left;
+	width: 161px;
+	height: 36px;
+	position: relative;
+}
+.s_content .detail .main ul li .load .ewm a{
+	display: inline-block;
+	height: 36px;
+	padding-left: 41px;
+	background: url(../images/icon.png) no-repeat 0 -448px;
+}
+.s_content .detail .main ul li .load a:hover{
+	color: #33b972;
+}
+.s_content .detail .main ul li .load .ewm i{
+	position: absolute;
+	left: -29px;
+	bottom: 30px;
+	width: 131px;
+	height: 146px;
+	padding: 10px 0 0 15px;
+	background: url(../images/ewmbg.png) no-repeat 0 0 ;
+	display: none;
+}
+.s_content .detail .main ul li .load .ewm i img{
+	display: block;
+}
+.s_content .detail .main ul li .load .ewm:hover i{
+	display: block;
+}
+.s_content .detail .main .more{
+	display: block;
+	width: 212px;
+	height: 56px;
+	border-radius: 4px;
+	margin: 0 auto;
+	background-color: #38b774;
+	color: #fff;
+	line-height: 56px;
+	text-align: center;
+}
+.s_content .detail .main .more:hover{
+	background-color: #2baa67;
+}
